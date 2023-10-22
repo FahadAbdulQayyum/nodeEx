@@ -11,6 +11,7 @@ const app = express();
 // app.use(express.static(path.join(__dirname, 'public')))
 app.use(express.static(path.join(__dirname, 'client')))
 
+// '/' ROUTER
 app.use('/', ROUTER)
 
 app.listen(3000, () => {
