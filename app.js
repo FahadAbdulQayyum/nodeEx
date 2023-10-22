@@ -4,6 +4,7 @@ const express = require('express');
 const ROUTER = require('./Routes')
 // path imported 
 const path = require('path');
+// app imported 
 const app = express();
 
 // app.use(express.static(path.join(__dirname, 'public')))
