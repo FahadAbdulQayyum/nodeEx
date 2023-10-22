@@ -7,6 +7,7 @@ const path = require('path');
 // app imported 
 const app = express();
 
+// following file is accessible for front end files
 // app.use(express.static(path.join(__dirname, 'public')))
 app.use(express.static(path.join(__dirname, 'client')))
 
