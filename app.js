@@ -14,6 +14,7 @@ app.use(express.static(path.join(__dirname, 'client')))
 // '/' ROUTER
 app.use('/', ROUTER)
 
+// app listens at 3000 port
 app.listen(3000, () => {
     console.log('Listening at 3000')
 })
