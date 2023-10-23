@@ -16,4 +16,5 @@ router.get('/', (req, res) => {
     // res.sendFile(pathFile)
 })
 
+// router imported here
 module.exports = router;
