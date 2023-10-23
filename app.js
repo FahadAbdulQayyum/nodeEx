@@ -16,5 +16,6 @@ app.use('/', ROUTER)
 
 // app listens at 3000 port
 app.listen(3000, () => {
+    // Consoling at terminal when server is active
     console.log('Listening at 3000')
 })
