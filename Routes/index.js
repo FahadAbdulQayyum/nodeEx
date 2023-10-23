@@ -5,6 +5,7 @@ const path = require('path');
 // router imported here
 const router = express.Router();
 
+// router controller of get method starts here 
 router.get('/', (req, res) => {
     // res.send('Bly')
     res.sendFile('../client')
