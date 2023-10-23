@@ -7,6 +7,7 @@ const router = express.Router();
 
 // router controller of get method starts here 
 router.get('/', (req, res) => {
+    // send the 'BLY' when hits at '/' route in get method
     // res.send('Bly')
     res.sendFile('../client')
     // const pathFile = path.join(__dirname, '../client')
