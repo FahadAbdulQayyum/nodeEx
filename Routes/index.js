@@ -2,6 +2,7 @@
 const express = require('express');
 // path imported here
 const path = require('path');
+// router imported here
 const router = express.Router();
 
 router.get('/', (req, res) => {
