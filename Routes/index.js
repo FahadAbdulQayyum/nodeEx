@@ -2,7 +2,7 @@
 const express = require('express');
 // path imported here
 const path = require('path');
-// router imported here
+// router imported heree
 const router = express.Router();
 
 // router controller of get method starts here 
