@@ -1,4 +1,4 @@
-// expresss imported here
+// expres imported here
 const express = require('express');
 // path imported here
 const path = require('path');
