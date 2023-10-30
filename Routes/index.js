@@ -17,7 +17,7 @@ router.get('/', (req, res) => {
     /// res.sendFile(pathFile)
 })
 
-// This route is accessible but '/' is not, I wonder why? Yeah
+/// This route is accessible but '/' is not, I wonder why? Yeah
 router.get('/fahad', (req, res) => {
     // res sended the following text
     res.send("Welcome to Fahad's route")
