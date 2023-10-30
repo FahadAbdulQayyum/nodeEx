@@ -5,7 +5,7 @@ const path = require('path');
 /// router imported here
 const router = express.Router();
 
-// router controller of get method starts here
+/// router controller of get method starts here
 router.get('/', (req, res) => {
     /// send the 'BLY' when hits at '/' route in 'get' method
     res.send('Bly')
