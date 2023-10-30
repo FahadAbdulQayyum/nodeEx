@@ -1,6 +1,6 @@
 /// express imported here
 const express = require('express');
-// path imported here
+/// path imported here
 const path = require('path');
 // router imported here
 const router = express.Router();
