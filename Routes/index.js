@@ -23,5 +23,5 @@ router.get('/fahad', (req, res) => {
     res.send("Welcome to Fahad's route")
 })
 
-/// router imported here
+// router imported here
 module.exports = router;
