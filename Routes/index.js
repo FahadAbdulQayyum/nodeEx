@@ -10,7 +10,7 @@ router.get('/', (req, res) => {
     // send the 'BLY' when hits at '/' route in 'get' method
     res.send('Bly')
     // send the client file at '/' route in get method
-    /// res.sendFile('../client')
+    // res.sendFile('../client')
     /// res.sendFile('../public')
     /// const pathFile = path.join(__dirname, '../client')
     /// const pathFile = path.join(__dirname, '../public')
