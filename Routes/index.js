@@ -11,7 +11,7 @@ router.get('/', (req, res) => {
     res.send('Bly')
     // send the client file at '/' route in get method
     // res.sendFile('../client')
-    /// res.sendFile('../public')
+    // res.sendFile('../public')
     /// const pathFile = path.join(__dirname, '../client')
     /// const pathFile = path.join(__dirname, '../public')
     /// res.sendFile(pathFile)
