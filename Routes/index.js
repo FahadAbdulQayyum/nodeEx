@@ -12,7 +12,7 @@ router.get('/', (req, res) => {
     // send the client file at '/' route in get method
     // res.sendFile('../client')
     // res.sendFile('../public')
-    /// const pathFile = path.join(__dirname, '../client')
+    // const pathFile = path.join(__dirname, '../client')
     /// const pathFile = path.join(__dirname, '../public')
     /// res.sendFile(pathFile)
 })
