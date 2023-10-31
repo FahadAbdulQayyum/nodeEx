@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
     // res.sendFile('../public')
     // const pathFile = path.join(__dirname, '../client')
     // const pathFile = path.join(__dirname, '../public')
-    /// res.sendFile(pathFile)
+    // res.sendFile(pathFile)
 })
 
 /// This route is accessible but '/' is not, I wonder why? Yeah
